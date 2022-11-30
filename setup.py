@@ -45,7 +45,7 @@ setup(
     python_requires=">=3.9",
     entry_points={
         'console_scripts': [
-            'hwpypcmd=hwpyp.mypy:sayHello',
+            'readermd=reader.twobytwo:twobytwo',
         ]
     }
 )
