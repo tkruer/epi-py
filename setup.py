@@ -9,7 +9,7 @@ except ImportError:
 
 setup(
     name='epi-py',
-    version='0.0.1',
+    version='0.0.2',
     packages=['epi-py'],
     install_requires=[
 
