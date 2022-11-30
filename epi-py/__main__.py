@@ -1,6 +1,5 @@
 # __main__.py
 
-import sys
 import twobytwo
 
 def main():
