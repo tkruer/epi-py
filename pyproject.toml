@@ -1,3 +1,5 @@
+# pyproject.toml
+
 [project]
 name = "tkruer"
 version = "0.0.1"
@@ -16,3 +18,8 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/tkruer/epi-py"
 "Bug Tracker" = "https://github.com/tkruer/epi-py/issues"
+
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
