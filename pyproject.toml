@@ -1,4 +1,7 @@
 # pyproject.toml
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "tkruer"
@@ -19,7 +22,5 @@ classifiers = [
 "Homepage" = "https://github.com/tkruer/epi-py"
 "Bug Tracker" = "https://github.com/tkruer/epi-py/issues"
 
-
-[build-system]
-requires = ["setuptools>=61.0.0", "wheel"]
-build-backend = "setuptools.build_meta"
+[project.scripts]
+epi-py = "reader.__main__:main"
