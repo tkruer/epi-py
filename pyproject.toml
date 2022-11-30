@@ -1,0 +1,18 @@
+[project]
+name = "tkruer"
+version = "0.0.1"
+authors = [
+    { name="Tyler Kruer", email="tylerkruer1@gmail.com" },
+]
+description = "Epidemiology Package for Python"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/tkruer/epi-py"
+"Bug Tracker" = "https://github.com/tkruer/epi-py/issues"
